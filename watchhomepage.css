@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+header{
+    background-color: rgb(202, 248, 64);
+    height: 100px;
+}
+.box1{
+    display: flex;
+}
+.one-a{
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.one-b{
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.one-b a{
+    padding: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    color:rgb(28, 142, 5);
+}
+.one-b a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 3px;
+    border-bottom: 2px solid rgb(249, 248, 248);
+    box-shadow: 0px 2px 5px 5px;
+}
+.one-c{
+    margin-left: 40px;
+    margin-top: 34px;
+    font-size: 25px;
+}
+.one-c i{
+padding: 3px;
+}
+.one-c i:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 3px;
+    border-bottom: 2px solid rgb(249, 248, 248);
+}
+.box3{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 20px;
+}
+.one-e{
+    margin-top: 100px;
+}
+.one-e img{
+    width: 300px;
+    height: 500px;
+    margin-left: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+    
+}
+.one-e img:hover{
+    transform: scale(1.03);
+}
+.one-f{
+    margin-top: 100px;
+    margin-left: 10px;
+    height: 400px;
+    font-size: 30px;   
+    transform: rotate(-40deg);
+    text-shadow: 5px 10px 10px;
+    color:rgb(0, 0, 0);
+    /* border: 1px solid black; */
+
+}
+.one-f img{
+    width: 250px;
+    height: 250px;
+    margin-left: 90px;
+    transform: rotate(-6deg);
+}
+.one-g{
+ /* border: 1px solid black; */
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 35px;
+    width: 200px;
+
+}
+.one-h{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: rgb(248, 217, 217);
+}
+.inbox h3,p{
+    margin-left: 15px;
+}
+.inbox img{
+border-radius: 10px;
+}
+.one-h:hover{
+    transform: scale(1.05);
+}
+.inbox span{
+    color: gray;
+}
+.inbox s{
+    color: red;
+}
+.box4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one-i{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 35px;
+    width: 400px;
+}
+.one-i img{
+    position: relative;
+    animation-name:watch;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes watch{
+    0%   {top:0px; bottom:0px;}
+    50%  { top:200px; bottom:0px;}
+    100% { bottom:200px; top:0px;}
+}
+.box5{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one-j h3{
+    background-color: gray;
+    width: 300px;
+    padding: 5px 5px;
+    transform: translateY(-36px);
+}
+.one-j img{
+    filter: drop-shadow(8px 8px 10px gray);
+    filter: contrast(120%);
+}
+.box6 h3{
+    /* border: 1px solid black; */
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 350px;
+}
+.box6 img{
+    width:95%;
+    height: 500px;
+    margin-top: 30px;
+   margin-left: 45px;
+}
+.box7{
+    margin-top: 50px;
+    margin-left: 330px;
+}
+.box7 h2{
+    /* border: 1px solid black; */
+    width: 410px;
+   margin-left: 15%;
+   margin-bottom: 15px;
+}
+.box8{
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.one-i img{
+margin-top: 50px;
+}
+.box9{
+    display: flex;  
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: rgb(182, 181, 181);
+    padding: 40px 10px;
+}
+.box9 .one-k:hover{
+    color: white;
+}
+.box10{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.one-l i{
+color: aliceblue;
+font-size: 40px;
+padding: 5px;
+margin-top: 30px;
+}
+.one-l,.one-m{
+    margin-top: 70px;
+}
+.one-l i:hover{
+    color: lightseagreen;
+    text-shadow: 2px 1px 8px rgb(229, 231, 232);
+}
+.one-l img{
+    background-color: rgb(229, 231, 232);
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px;
+}
+.one-n p{
+    background-color: rgb(156, 154, 154);
+    text-align: center;
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 20px 10px;
+    transform: translateY(-100px);
+}
